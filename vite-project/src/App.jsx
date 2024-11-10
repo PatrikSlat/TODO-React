@@ -9,6 +9,16 @@ function App() {
       <input name='input-task'></input>
       <button className='btn-submit'>Submit</button>
     </form>
+    <h1>Your TODO's: </h1>
+    <ul className='todo-list'>
+      <li className='item'>
+        <label className='item-label'>
+          dummy
+          <input type='checkbox'></input>
+          <button className='btn-delete'>DELETE</button>
+        </label>
+      </li>
+    </ul>
   </div>
 }
 

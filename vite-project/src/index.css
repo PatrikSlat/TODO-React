@@ -10,7 +10,7 @@ body{
     background-color: rgb(51 65 85);
     font-family: "Edu AU VIC WA NT Pre";
     font-size: 1rem;
-    color: aqua;
+    color: rgb(191 219 254);
 }
 
 .content{
@@ -20,25 +20,35 @@ body{
 }
 
 h1{
-    margin-bottom: 20px;
+    margin-bottom: 2.2rem;
 }
 
 form{
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .btn-submit{
+    font-size: 1.5rem;
     background-color: rgb(163 230 53);
-    padding: 20px;
-    border: 0px;
-    border-radius: 25px;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 3rem;
+}
+
+.btn-delete{
+    font-size: 1rem;
+    background-color: crimson;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 3rem;
 }
 
 input{
-    border-radius: 25px;
-    padding: 20px;
+    border-radius: 1.5rem;
+    padding: 1rem;
 }
 
 label{
@@ -46,3 +56,15 @@ label{
     white-space: nowrap;
     overflow: hidden;
 }
+
+.todo-list{
+    list-style: none;   
+}
+
+.item-label{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
