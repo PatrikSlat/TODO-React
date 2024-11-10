@@ -1,10 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  return <></>
+  return <div className='content'>
+    <h1>Your online TODO-App</h1>
+    <form> 
+      <label htmlFor='input-task'>What's your task for today ?</label>
+      <input name='input-task'></input>
+      <button className='btn-submit'>Submit</button>
+    </form>
+  </div>
 }
 
 export default App
